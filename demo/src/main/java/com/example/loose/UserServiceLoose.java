@@ -4,14 +4,14 @@ package com.example.loose;
 import org.springframework.stereotype.Component;
 
 @Component
-public class UserService {
+public class UserServiceLoose {
     private NotificationService notificationService;
 
 
     // public UserService(){}
 
     // @Autowired
-    public UserService(NotificationService notificationService){
+    public UserServiceLoose(NotificationService notificationService){
         this.notificationService = notificationService;
 
     }
