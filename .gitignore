@@ -1,0 +1,77 @@
+# =========================================================================
+# Compiled Java Class Files
+# =========================================================================
+*.class
+*.log
+*.ctxt
+
+# =========================================================================
+# Packaged Artifacts (Executables & Archives)
+# =========================================================================
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================================================================
+# Build Tools (Maven)
+# =========================================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# Build Tools (Gradle)
+# =========================================================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =========================================================================
+# IDEs & Code Editors
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# NetBeans
+**/nbproject/private/
+**/nbproject/properties-local.properties
+**/nbproject/templates-local.properties
+**/nbproject/maven-eclipse-stub/
+build/
+nbdist/
+dist/
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+Thumbs.db
+.DS_Store
+
+
+spring-boot/
